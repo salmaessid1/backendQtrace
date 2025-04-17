@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",          // Où les fichiers compilés seront placés
+    "rootDir": "./src",          // Spécifie que le dossier src contient les fichiers source
+    "baseUrl": "./",             // Base de ton projet
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*.ts",   // Inclut tous les fichiers source TypeScript
+    "types.d.ts"               // Inclut tous les fichiers TypeScript dans le dossier src
+  ],
+  "exclude": [
+    "node_modules"               // Exclut le dossier node_modules
+  ]
+}
